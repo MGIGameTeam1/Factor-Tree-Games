@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mgi.factortree.setting">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:text="Settings"
+            android:textSize="40dp"
+            android:id="@+id/tvSettings"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BGM       "
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:id="@+id/swBGM"
+            android:layout_gravity="center_horizontal"
+            android:checked="true"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sound     "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:id="@+id/swSound"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:checked="true"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Tutorial"
+            android:textSize="25dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:id="@+id/btnTutorial"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Reset Game"
+            android:fontFamily="casual"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/btnReset"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:text="Back"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:id="@+id/btnBack" />
+
+</LinearLayout>

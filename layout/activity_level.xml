@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mgi.factortree.Level"
+    android:background="@drawable/backgroundmenu"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSelectLevel"
+        android:text="Select Level"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnEasy"
+        android:text="Easy"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="casual"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnMedium"
+            android:text="Medium"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hard"
+            android:id="@+id/btnHard"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:fontFamily="casual"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

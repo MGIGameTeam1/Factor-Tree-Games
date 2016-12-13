@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="50dp"
+    android:paddingTop="150dp"
+    android:paddingBottom="100dp"
+    android:paddingRight="50dp"
+    tools:context="com.mgi.factortree.Exit">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="No"
+        android:id="@+id/btnNo"
+        android:layout_gravity="right|center_vertical"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:id="@+id/btnYes"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_gravity="left|center_vertical"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="Are you sure?"
+        android:textSize="30dp"
+        android:id="@+id/tvSettings"
+        android:layout_gravity="center_horizontal|top"/>
+</FrameLayout>
